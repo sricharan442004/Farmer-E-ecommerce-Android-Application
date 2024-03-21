@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "734457427643",
+    "project_id": "farmezy-f88eb",
+    "storage_bucket": "farmezy-f88eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734457427643:android:e173824c248212aacb5b9e",
+        "android_client_info": {
+          "package_name": "com.example.farmezy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "734457427643-hmrgnt78vm8sjt24tem3rr8eo41a0jcg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.farmezy",
+            "certificate_hash": "224fb2568a47bc1eff994774a7b7511dd25217f8"
+          }
+        },
+        {
+          "client_id": "734457427643-fimhoo1cmmfg6sejmvfm6qhit0hb51v8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxTMNlB-cu0EA-Z1HFZvlzFMs_E4m2dkU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "734457427643-fimhoo1cmmfg6sejmvfm6qhit0hb51v8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

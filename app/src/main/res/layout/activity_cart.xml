@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CartActivity"
+    android:background="@drawable/wallpaper">
+
+    <TextView
+        android:id="@+id/cartactivitytitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/app_name"
+        android:textColor="#E91E63"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/cartactivtylable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cartactivitytitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="CART"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="25dp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/cartactivitylistview"
+        android:layout_below="@+id/cartactivtylable"
+        android:layout_above="@+id/carttotalprice"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/carttotalprice"
+        android:layout_above="@+id/placeorder"
+        android:text="Total Price"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="#FFC107"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/placeorder"
+        android:layout_above="@+id/custombottom"
+        android:layout_marginBottom="16dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_bg"
+        android:text="place order"/>
+
+    <include
+        layout="@layout/custom_bottom"
+        android:id="@+id/custombottom"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

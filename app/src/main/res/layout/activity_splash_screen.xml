@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@color/splash_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/splashscreeneng"
+        android:text="Welcome to AgroWorld"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:textColor="#fff"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/splashscreenimg"
+        android:layout_below="@+id/splashscreeneng"
+        android:src="@drawable/cownbg"
+        android:layout_marginHorizontal="70dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/splashscreentel"
+        android:layout_below="@+id/splashscreenimg"
+        android:text="పల్లె ప్రగతి"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:textColor="#fff"
+        android:layout_marginHorizontal="70dp"/>
+
+</RelativeLayout>
